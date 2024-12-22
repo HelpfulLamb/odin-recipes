@@ -1,3 +1,30 @@
 body{
-    background-color: orange;
+    background-color: #FFFDEC;
+}
+#ingredients{
+    color: #86A788;
+}
+#instructions{
+    color: #605EA1;
+}
+.resize{
+    font-size: 25px;
+}
+.recipe-title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+#chick-parm-title{
+    color: #DEAA79;
+}
+#brownie-title{
+    color: #6F4E37;
+}
+#cookie-title{
+    color: #F0BB78;
+}
+.imagen{
+    display: block;
+    margin: auto;
 }
