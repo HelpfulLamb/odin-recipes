@@ -13,7 +13,7 @@ body{
 .recipe-title{
     text-align: center;
     font-size: 50px;
-    margin-top: 10px;
+    margin: 10px auto;
 }
 #chick-parm-title{
     color: #DEAA79;
