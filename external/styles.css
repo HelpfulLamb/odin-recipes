@@ -28,3 +28,30 @@ body{
     display: block;
     margin: auto;
 }
+.container{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+.ingredients-container{
+    grid-template-columns: 1fr 1fr;
+}
+.instructions-container{
+    grid-template-columns: 1fr;
+}
+.ingredients-container.single{
+    grid-template-columns: 1fr;
+}
+.main-items, .frost-items, .step-by-step{
+    text-align: left;
+    justify-self: center;
+}
+.frost-items{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.main-items strong, .frost-items strong{
+    margin-bottom: 10px;
+}
