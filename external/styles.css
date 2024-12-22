@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #FFFDEC;
 }
@@ -6,6 +11,9 @@ body{
 }
 #instructions{
     color: #605EA1;
+}
+#frosting{
+    color: #608083;
 }
 .resize{
     font-size: 25px;
@@ -29,29 +37,22 @@ body{
     margin: auto;
 }
 .container{
-    display: grid;
-    gap: 20px;
-    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 10px;
 }
 .ingredients-container{
-    grid-template-columns: 1fr 1fr;
+    margin: 10px 50px 10px 10px;
+    padding: 15px;
 }
 .instructions-container{
-    grid-template-columns: 1fr;
+    padding: 15px;
+    margin: 10px;
 }
-.ingredients-container.single{
-    grid-template-columns: 1fr;
+.main-items ul, .step-by-step ol, .frost-items ul{
+    padding-left: 30px;
+    margin-top: 15px;
 }
-.main-items, .frost-items, .step-by-step{
-    text-align: left;
-    justify-self: center;
-}
-.frost-items{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-.main-items strong, .frost-items strong{
-    margin-bottom: 10px;
+.container li {
+    padding-bottom: 13px;
 }
